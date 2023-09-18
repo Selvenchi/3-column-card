@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  background-color: var(--clr-light-gray);
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+}
+
+:root {
+  --clr-orange: hsl(31, 77%, 52%);
+  --clr-cyan: hsl(184, 100%, 22%);
+  --clr-dark-cyan: hsl(179, 100%, 13%);
+  /* PARAGRAPHS */
+  --clr-transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* BG, HEADING, BTN */
+  --clr-light-gray: hsl(0, 0%, 95%);
+}
